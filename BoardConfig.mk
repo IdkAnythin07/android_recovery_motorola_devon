@@ -50,6 +50,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CONFIG := devon_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/devon
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
